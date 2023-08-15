@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    /* 100vh é viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 182, 182);
+} 
+
+#tela-login{
+    min-width: 700px;
+    max-width: 1200px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
